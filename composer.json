@@ -1,6 +1,6 @@
 {
     "require": {
-        "symfony/web-link": "5.4.39"
+        "symfony/web-link": "~5.4.39"
     },
     "config": {
         "platform": {
