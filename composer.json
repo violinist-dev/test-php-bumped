@@ -1,5 +1,10 @@
 {
     "require": {
         "symfony/web-link": "5.4.39"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.0"
+        }
     }
 }
