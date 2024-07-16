@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d2bd326a32486e04a89511962d0dbb4d",
+    "content-hash": "629374f5f48806c97fdd2270534eb5b1",
     "packages": [
         {
             "name": "psr/link",
@@ -53,6 +53,9 @@
                 "psr-13",
                 "rest"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/link/tree/master"
+            },
             "time": "2016-10-28T16:06:13+00:00"
         },
         {
@@ -116,6 +119,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.30.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -134,16 +140,16 @@
         },
         {
             "name": "symfony/web-link",
-            "version": "v5.4.39",
+            "version": "v5.4.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/web-link.git",
-                "reference": "4c63edebd61782446985cc4836cdc1a500a860c4"
+                "reference": "2615fe9ec22e210f06826d8ef4c32249ff9bfc01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/web-link/zipball/4c63edebd61782446985cc4836cdc1a500a860c4",
-                "reference": "4c63edebd61782446985cc4836cdc1a500a860c4",
+                "url": "https://api.github.com/repos/symfony/web-link/zipball/2615fe9ec22e210f06826d8ef4c32249ff9bfc01",
+                "reference": "2615fe9ec22e210f06826d8ef4c32249ff9bfc01",
                 "shasum": ""
             },
             "require": {
@@ -200,6 +206,9 @@
                 "psr13",
                 "push"
             ],
+            "support": {
+                "source": "https://github.com/symfony/web-link/tree/v5.4.40"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -214,7 +223,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-18T08:26:06+00:00"
+            "time": "2024-05-31T14:33:22+00:00"
         }
     ],
     "packages-dev": [],
@@ -226,7 +235,7 @@
     "platform": [],
     "platform-dev": [],
     "platform-overrides": {
-        "php": "7.4.0"
+        "php": "7.4.33"
     },
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.6.0"
 }
